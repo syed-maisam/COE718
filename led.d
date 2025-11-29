@@ -1,8 +1,6 @@
-.\led.o: LED.c
-.\led.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H
-.\led.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
-.\led.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-.\led.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
-.\led.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
-.\led.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
-.\led.o: LED.h
+.\flash\led.o: LED.c
+.\flash\led.o: LPC17xx.H
+.\flash\led.o: core_cm3.h
+.\flash\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\led.o: system_LPC17xx.h
+.\flash\led.o: LED.h
