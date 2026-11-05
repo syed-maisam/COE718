@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\traceport_trace\irq.o"
+".\traceport_trace\glcd_spi_lpc1700.o"
+".\traceport_trace\led.o"
+".\traceport_trace\kbd.o"
+".\traceport_trace\blinky.o"
+".\traceport_trace\adc_mcb1700.o"
+".\traceport_trace\joystick_mcb1700.o"
+".\traceport_trace\retarget_io.o"
+".\traceport_trace\gpio_lpc17xx.o"
+".\traceport_trace\pin_lpc17xx.o"
+".\traceport_trace\startup_lpc17xx.o"
+".\traceport_trace\system_lpc17xx.o"
+--library_type=microlib --strict --scatter ".\TracePort_Trace\Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\TracePort_Trace\Blinky.map" -o .\TracePort_Trace\Blinky.axf
